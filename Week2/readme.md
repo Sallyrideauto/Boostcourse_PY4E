@@ -16,11 +16,9 @@
 ```python
 # rsp == rock scissors paper
 my = input("가위 바위 보")
-
 rsp(my)
 ```
 ```
-# 출력
 나 : 가위
 컴퓨터 : 바위
 컴퓨터 승리!
@@ -39,7 +37,6 @@ monthly_payment = 300
 yearly_payment(monthly_payment)
 ```
 ```
-# 출력
 세전 연봉 : 3600만원
 세후 연봉 : 3060만원
 ```
@@ -56,7 +53,6 @@ yearly_payment(monthly_payment)
 grader("이호창", 99)
 ```
 ```
-# 출력
 학생이름 : 이호창
 점수 : 99점
 학점 : A+
@@ -97,7 +93,6 @@ grader("이호창", 99)
 bus_fare(30, "현금")
 ```
 ```
-# 출력
 나이 : 30세
 지불유형 : 현금
 버스요금 : 1300원
