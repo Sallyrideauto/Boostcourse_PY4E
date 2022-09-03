@@ -58,13 +58,32 @@ grader("이호창", 99)
 ```
 📌Q4. 나이와 현금 또는 카드를 입력하면 버스 요금이 출력되는 버스 요금 계산기를 만들어봅시다.    
 📑아래의 요금표를 토대로 만들어주세요
-|구분(연령, 카드/현금)|카드|현금|
-|:--------------:|:--:|:--:|
-|8세 미만|무료||
-|8세 이상-14세 미만|450원|450원|
-|14세 이상-20세 미만|720원|1000원|
-|20세 이상|1200원|1300원|
-|75세 이상|무료||
+<table>
+  <tr>
+    <th>구분(연령, 카드/현금)</th>
+    <th>카드</th>
+    <th>현금</th>
+  </tr>
+  <tr>
+    <td align = "center">8세 미만</td>
+    <td align = "center" colspan = "2">무료</td>
+  </tr>
+  <tr>
+    <td align = "center">8세 이상-14세 미만</td>
+    <td align = "center" colspan = "2">450원</td>
+  </tr>
+  <tr>
+    <td align = "center">14세 이상-20세 미만</td>
+    <td align = "center">720원</td>
+    <td align = "center">1000원</td>
+  <tr>
+    <td align = "center">20세 이상</td>
+    <td align = "center">1200원</td>
+    <td align = "center">1300원</td>
+  <tr>
+    <td align = "center">75세 이상</td>
+    <td align = "center" colspan = "2">무료</td>
+</table>
 
 🔽출력 예시
 ```python
