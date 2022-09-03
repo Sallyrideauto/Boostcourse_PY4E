@@ -14,7 +14,7 @@ computer = random.randint(0, 2)
 ```python
 # rsp == rock scissors paper
 my = input("가위 바위 보")
-rcp(my)
+rsp(my)
 ```
 ```
 # 출력
