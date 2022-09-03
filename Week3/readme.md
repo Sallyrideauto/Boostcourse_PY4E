@@ -48,7 +48,7 @@ rsp_advanced(games)
 ```python
 n = 1
 m = 10
-numbers = [ i for i in range(n,m+1)] # [1,2,3,4,5,6,7,8,9,10]
+numbers = [i for i in range(n,m+1)] # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 # range(시작 숫자, 끝 숫자 + 1)
 ```
 🔽 출력 예시
