@@ -11,7 +11,7 @@ def bus_fare(age, payment):
             print("나이 : ", age, "세")
             print("지불유형 : 현금")
             print("버스요금 : 무료")
-    if age >= 8 and age < 14:
+    elif age >= 8 and age < 14:
         if payment == "카드":
             print("나이 : ", age, "세")
             print("지불유형 : 카드")
@@ -20,7 +20,7 @@ def bus_fare(age, payment):
             print("나이 : ", age, "세")
             print("지불유형 : 현금")
             print("버스요금 : 450원")
-    if age >= 14 and age < 20:
+    elif age >= 14 and age < 20:
         if payment == "카드":
             print("나이 : ", age, "세")
             print("지불유형 : 카드")
@@ -29,7 +29,7 @@ def bus_fare(age, payment):
             print("나이 : ", age, "세")
             print("지불유형 : 현금")
             print("버스요금 : 1000원")
-    if age >= 20 and age < 75:
+    elif age >= 20 and age < 75:
         if payment == "카드":
             print("나이 : ", age, "세")
             print("지불유형 : 카드")
